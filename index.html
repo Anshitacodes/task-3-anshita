@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Portal</h1>
+    </header>
+
+    <main class="container">
+        <button id="darkModeBtn" aria-label="Toggle dark mode">Toggle Dark Mode</button>
+
+        <section class="card">
+            <h2>Registration Form</h2>
+            <form id="registrationForm">
+                <input type="text" id="studentName" placeholder="Enter your name" required autocomplete="off">
+                <button type="submit">Register</button>
+            </form>
+            <p id="message" role="status"></p>
+        </section>
+
+        <section class="card">
+            <button id="showBtn">Show Details</button>
+            <div id="details" class="hidden">
+                <h3>Course Details</h3>
+                <p>Web Development with HTML, CSS and JavaScript.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Interactive Webpage Project — DecodeLabs Milestone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
