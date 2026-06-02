@@ -1,5 +1,5 @@
 # Interactive Student Portal
-
+#decodelab task 3
 ## Project Overview
 
 The Interactive Student Portal is a front-end web application developed using HTML, CSS, and JavaScript. The purpose of this project is to demonstrate how JavaScript can be used to create dynamic and interactive user experiences without reloading the webpage.
